@@ -4,7 +4,7 @@
 //
 //  Created by Jongho Lee on 2021/06/11.
 //
-#if DEBUG
+#if LOG
 
 import Foundation
 import os

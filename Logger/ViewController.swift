@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		#if DEBUG
+		#if LOG
 		CustomLogger.warning(tag: nil, message: "warning 로그")
 		CustomLogger.info(tag: nil, message: "info 로그")
 		CustomLogger.debug(tag: nil, message: "debug 로그")
