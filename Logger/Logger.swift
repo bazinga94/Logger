@@ -4,6 +4,7 @@
 //
 //  Created by Jongho Lee on 2021/06/11.
 //
+#if DEBUG
 
 import Foundation
 import os
@@ -149,3 +150,5 @@ class CustomLogger {
 		}
 	}
 }
+
+#endif
