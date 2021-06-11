@@ -2,7 +2,7 @@
 //  Logger.swift
 //  Logger
 //
-//  Created by 60067671 on 2021/06/11.
+//  Created by Jongho Lee on 2021/06/11.
 //
 
 import Foundation
