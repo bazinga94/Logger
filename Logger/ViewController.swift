@@ -13,9 +13,10 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		CustomLogger.warning(tag: nil, message: "warning 로그")
 		CustomLogger.info(tag: nil, message: "info 로그")
-		//		CustomLogger.error(tag: nil, message: "error 로그")
 		CustomLogger.debug(tag: nil, message: "debug 로그")
 		CustomLogger.verbose(tag: nil, message: "verbose 로그")
+		CustomLogger.error(tag: nil, message: "error 로그")
+//		CustomLogger.fault(tag: nil, message: "fault 로그")
 	}
 }
 
