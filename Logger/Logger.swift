@@ -40,7 +40,7 @@ class CustomLogger {
 		let thread = Thread.current.isMainThread ? "main": Thread.current.name ?? "-" // 현재 스레드
 
 		if let tag = tag {
-			return "\n" + description + "[Thread: \(thread)] [Tag: \(tag)]\n>>> \(message)\n<<<\n"
+			return "\n" + description + "[Thread: \(thread)] [Tag: \(tag)]\n>>>\n \(message)\n<<<\n"
 		} else {
 			return "\n" + description + "[Thread: \(thread)] \n>>>\n\(message)\n<<<\n"
 		}
